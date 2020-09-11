@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-size: 15px;
+
+}
+#main {
+  display: flex;
+  position: relative;
+
+}
+#fullpage-2 {
+  width: 80%;
+  position: absolute;
+  left: 20%;
+  
+}
+body img {max-width: 100%;}
+.header { 
+  background-color: #CCFFCC;
+ /*  margin-left: 30px; */
+ position: fixed;
+z-index: 1000;
+height: 100%;
+width: 20%;
+ }
+ .header span {
+   margin: 30px;
+   font-size: 50px;
+   font-weight: bolder;
+    
+ }
+ .header span:hover {
+   color: blue;
+ }
+ .header a {
+   text-decoration: none;
+   font-size:  20px;
+   display: block;
+   margin: 20px; 
+   /* padding-left: 30px; */
+   color: black;
+   text-align: center;
+   
+ }
+ .header a:hover {
+   border-bottom-style: double;
+  /*  background-image: linear-gradient( blue , white); */
+ }
+ .section {
+  text-align:center;
+  font-size: 3em;
+  margin: auto;
+ 
+}
+.title span {
+  font-size: 50px;
+  font-weight: bolder;
+}
+#about{
+  background-color: gray;
+  color: white;
+}
+.about {
+  display: flex;
+}
+.text {
+  font-size: 30px;
+}
+#Experience {
+  position: relative;
+  
+}
+#Experience  .title {
+  position: absolute;
+  top: 50px;
+  left: 45%;
+  
+}
+
+.text-1, .text-2 {
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  padding: 15px ;
+}
+.text-1 {
+ width: 500px;
+ position: absolute;
+ top: 150px;
+ left: 50px;
+}
+.text-2{
+  width: 500px;
+  position: absolute;
+  right: 50px;
+  bottom: 100px ;
+}
+
+
+
+.container {
+  width: 90%; 
+  background-color: #ddd;
+}
+
+
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+.contact {
+  
+  display: flex;
+  justify-content: space-evenly;
+  
+  
+}
+.contact div {
+  font-size: 20px;
+}
+#Contact-us {
+  position: relative;
+}
+#Contact-us .title {
+  position: absolute;
+  top: 50px;
+  left: 40%;
+}
+.form span {
+  font-size: 30px ;
+  font-style: italic;
+  text-align: left;
+}
+.form input{
+  width: 250px;
+  font-size: 20px;
+}
+#message {
+  width: 750px;
+  height: 100px;
+
+}
+
+.form button {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding: 10px;
+} 
+
+.html {width: 90%; background-color: #4CAF50;} 
+.css {width: 80%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #f44336;} 
+.php {width: 60%; background-color: #808080;} 
+
